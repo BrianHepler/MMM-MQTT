@@ -23,7 +23,7 @@ const Subscriber = function(url, port, auth, topics) {
         };
 
         if (auth) {
-            options.user = auth.user;
+            options.username = auth.user;
             options.password = auth.password;
         }
 
